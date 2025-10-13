@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1327</width>
+    <height>1030</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="9" column="9">
+        <widget class="QLineEdit" name="le7l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="7">
+        <widget class="QLineEdit" name="le4f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="7">
+        <widget class="QLineEdit" name="le13f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="3">
+        <widget class="QLineEdit" name="le17c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="3">
+        <widget class="QLineEdit" name="le18c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="9">
+        <widget class="QLineEdit" name="le6l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="8">
+        <widget class="QSlider" name="hs3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="8">
+        <widget class="QSlider" name="hs1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="9">
+        <widget class="QLineEdit" name="le5l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="7">
+        <widget class="QLineEdit" name="le2f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="9">
+        <widget class="QLineEdit" name="le14l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="7">
+        <widget class="QLineEdit" name="le14f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="9">
+        <widget class="QLineEdit" name="le12l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="9">
+        <widget class="QLineEdit" name="le13l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="8">
+        <widget class="QSlider" name="hs6">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="7">
+        <widget class="QLineEdit" name="le16f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="7">
+        <widget class="QLineEdit" name="le15f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="9">
+        <widget class="QLineEdit" name="le16l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="9">
+        <widget class="QLineEdit" name="le15l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="2">
+        <widget class="QLineEdit" name="le18p"/>
+       </item>
+       <item row="19" column="2">
+        <widget class="QLineEdit" name="le17p"/>
+       </item>
+       <item row="9" column="8">
+        <widget class="QSlider" name="hs7">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="8">
+        <widget class="QSlider" name="hs5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="2">
+        <widget class="QLineEdit" name="le14p"/>
+       </item>
+       <item row="17" column="2">
+        <widget class="QLineEdit" name="le15p"/>
+       </item>
+       <item row="30" column="0">
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="2">
+        <widget class="QLineEdit" name="le9p"/>
+       </item>
+       <item row="11" column="3">
+        <widget class="QLineEdit" name="le9c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="3">
+        <widget class="QLineEdit" name="le12c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="0">
+        <widget class="QLineEdit" name="le13s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>ELY</string>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="2">
+        <widget class="QLineEdit" name="le16p"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLineEdit" name="le4s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>AG</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="0">
+        <widget class="QLineEdit" name="le12s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>BE</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLineEdit" name="le9s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>VWSYF</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="5">
+        <widget class="QLineEdit" name="le6m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="6">
+        <widget class="QLineEdit" name="le8t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="5">
+        <widget class="QLineEdit" name="le12m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="9">
+        <widget class="QLineEdit" name="le8l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="7">
+        <widget class="QLineEdit" name="le9f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="9">
+        <widget class="QLineEdit" name="le9l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="7">
+        <widget class="QLineEdit" name="le6f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="7">
+        <widget class="QLineEdit" name="le10f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="7">
+        <widget class="QLineEdit" name="le11f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="7">
+        <widget class="QLineEdit" name="le12f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="29" column="3">
+        <widget class="QLineEdit" name="lineEdit_11">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="9">
+        <widget class="QLineEdit" name="le10l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="9">
+        <widget class="QLineEdit" name="le11l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QLineEdit" name="le6p"/>
+       </item>
+       <item row="10" column="7">
+        <widget class="QLineEdit" name="le8f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="27" column="3">
+        <widget class="QLineEdit" name="lineEdit_3"/>
+       </item>
+       <item row="8" column="3">
+        <widget class="QLineEdit" name="le6c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="27" column="2">
+        <widget class="QLineEdit" name="lineEdit_15"/>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLineEdit" name="le8s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>BTG</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="3">
+        <widget class="QLineEdit" name="le10c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="3">
+        <widget class="QLineEdit" name="le8c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="8">
+        <widget class="QSlider" name="hs9">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="28" column="3">
+        <widget class="QLineEdit" name="lineEdit_10">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="8">
+        <widget class="QSlider" name="hs10">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="8">
+        <widget class="QSlider" name="hs13">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="8">
+        <widget class="QSlider" name="hs14">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="8">
+        <widget class="QSlider" name="hs11">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="8">
+        <widget class="QSlider" name="hs12">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="8">
+        <widget class="QSlider" name="hs8">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="8">
+        <widget class="QSlider" name="hs16">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QLineEdit" name="le1t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Monthly Gain</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QLabel" name="label_6">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Semester Gain</string>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="8">
+        <widget class="QSlider" name="hs15">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="7">
+        <widget class="QLineEdit" name="le1f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="5">
+        <widget class="QLineEdit" name="le8m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="6">
+        <widget class="QLineEdit" name="le7t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="6">
+        <widget class="QLineEdit" name="le10t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="6">
+        <widget class="QLineEdit" name="le2t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="5">
+        <widget class="QLineEdit" name="le3m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="5">
+        <widget class="QLineEdit" name="le4m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="6">
+        <widget class="QLineEdit" name="le5t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="3">
+        <widget class="QLineEdit" name="le16c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="5">
+        <widget class="QLineEdit" name="le9m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Price</string>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="0">
+        <widget class="QLineEdit" name="le16s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>VRTX</string>
+         </property>
+        </widget>
+       </item>
+       <item row="26" column="3">
+        <widget class="QLineEdit" name="lineEdit_16"/>
+       </item>
+       <item row="13" column="5">
+        <widget class="QLineEdit" name="le11m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QPushButton" name="startButton">
+         <property name="styleSheet">
+          <string notr="true">background-color: #836f00</string>
+         </property>
+         <property name="text">
+          <string>START</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="le1p"/>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLineEdit" name="le1c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLineEdit" name="le2s">
+         <property name="styleSheet">
+          <string notr="true">background-color: #6c7bff;
+color:white</string>
+         </property>
+         <property name="text">
+          <string>FCEL</string>
+         </property>
+        </widget>
+       </item>
+       <item row="30" column="2">
+        <widget class="QLineEdit" name="lineEdit_9">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="8">
+        <widget class="QSlider" name="hs4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="3">
+        <widget class="QProgressBar" name="progressBar"/>
+       </item>
+       <item row="4" column="9">
+        <widget class="QLineEdit" name="le2l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="6">
+        <widget class="QLineEdit" name="le9t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="stopButton">
+         <property name="styleSheet">
+          <string notr="true">background-color: #Aa3ca2</string>
+         </property>
+         <property name="text">
+          <string>STOP</string>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+         <property name="default">
+          <bool>true</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QLineEdit" name="le10s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>IRDM</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="7">
+        <widget class="QLineEdit" name="le7f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLineEdit" name="le7s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>WPM</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="9">
+        <widget class="QLineEdit" name="le1l">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="6">
+        <widget class="QLineEdit" name="le3t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="24" column="3">
+        <widget class="QLineEdit" name="lineEdit_22"/>
+       </item>
+       <item row="12" column="2">
+        <widget class="QLineEdit" name="le10p"/>
+       </item>
+       <item row="13" column="2">
+        <widget class="QLineEdit" name="le11p"/>
+       </item>
+       <item row="9" column="3">
+        <widget class="QLineEdit" name="le7c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="3">
+        <widget class="QLineEdit" name="le11c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="2">
+        <widget class="QLineEdit" name="le13p"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLineEdit" name="le5s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>SVM</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="0">
+        <widget class="QLineEdit" name="le11s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>IPOF</string>
+         </property>
+        </widget>
+       </item>
+       <item row="26" column="0">
+        <widget class="QLineEdit" name="lineEdit_13">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="24" column="0">
+        <widget class="QLineEdit" name="lineEdit_20"/>
+       </item>
+       <item row="27" column="0">
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="24" column="2">
+        <widget class="QLineEdit" name="lineEdit_21"/>
+       </item>
+       <item row="25" column="3">
+        <widget class="QLineEdit" name="lineEdit_19"/>
+       </item>
+       <item row="25" column="0">
+        <widget class="QLineEdit" name="lineEdit_17"/>
+       </item>
+       <item row="17" column="0">
+        <widget class="QLineEdit" name="le15s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>ABBV</string>
+         </property>
+        </widget>
+       </item>
+       <item row="25" column="2">
+        <widget class="QLineEdit" name="lineEdit_18"/>
+       </item>
+       <item row="26" column="2">
+        <widget class="QLineEdit" name="lineEdit_14"/>
+       </item>
+       <item row="10" column="2">
+        <widget class="QLineEdit" name="le8p"/>
+       </item>
+       <item row="7" column="3">
+        <widget class="QLineEdit" name="le5c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Stock</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLineEdit" name="le6s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>RGLD</string>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="3">
+        <widget class="QLineEdit" name="le15c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="3">
+        <widget class="QLineEdit" name="le13c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="29" column="0">
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLineEdit" name="le3s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>PLUG</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="3">
+        <widget class="QLineEdit" name="le14c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="0">
+        <widget class="QLineEdit" name="le14s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>BDC</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="2">
+        <widget class="QLineEdit" name="le7p"/>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLineEdit" name="le4p"/>
+       </item>
+       <item row="14" column="2">
+        <widget class="QLineEdit" name="le12p"/>
+       </item>
+       <item row="9" column="5">
+        <widget class="QLineEdit" name="le7m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLineEdit" name="le4c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLineEdit" name="le3c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="28" column="0">
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="8">
+        <widget class="QSlider" name="hs2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLineEdit" name="le5p"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Previous Close</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="5">
+        <widget class="QLineEdit" name="le1m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="le2p"/>
+       </item>
+       <item row="4" column="5">
+        <widget class="QLineEdit" name="le2m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLineEdit" name="le1s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>NIO</string>
+         </property>
+        </widget>
+       </item>
+       <item row="29" column="2">
+        <widget class="QLineEdit" name="lineEdit_8">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="6">
+        <widget class="QLineEdit" name="le6t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QLineEdit" name="le3p"/>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLineEdit" name="le2c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="4">
+        <widget class="QLineEdit" name="le18w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="7">
+        <widget class="QLineEdit" name="le17f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="6">
+        <widget class="QLineEdit" name="le17t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="9">
+        <widget class="QLineEdit" name="le18l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="8">
+        <widget class="QSlider" name="hs18">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="0">
+        <widget class="QLineEdit" name="le19s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>SESN</string>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="9">
+        <widget class="QLineEdit" name="le17l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="6">
+        <widget class="QLineEdit" name="le18t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="8">
+        <widget class="QSlider" name="hs17">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="7">
+        <widget class="QLineEdit" name="le18f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="28" column="2">
+        <widget class="QLineEdit" name="lineEdit_7">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="30" column="3">
+        <widget class="QLineEdit" name="lineEdit_12">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="7">
+        <widget class="QLineEdit" name="le3f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QPushButton" name="startButton_2">
+         <property name="styleSheet">
+          <string notr="true">background-color: #836f00</string>
+         </property>
+         <property name="text">
+          <string>START</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Weekly Gain</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="4">
+        <widget class="QLineEdit" name="le4w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="QLineEdit" name="le3w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="4">
+        <widget class="QLineEdit" name="le5w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLineEdit" name="le2w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="9">
+        <widget class="QLineEdit" name="le3l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="5">
+        <widget class="QLineEdit" name="le10m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLineEdit" name="le1w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="4">
+        <widget class="QLineEdit" name="le6w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="5">
+        <widget class="QLineEdit" name="le5m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="4">
+        <widget class="QLineEdit" name="le13w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="4">
+        <widget class="QLineEdit" name="le8w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="4">
+        <widget class="QLineEdit" name="le7w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="4">
+        <widget class="QLineEdit" name="le12w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="4">
+        <widget class="QLineEdit" name="le10w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="4">
+        <widget class="QLineEdit" name="le9w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="4">
+        <widget class="QLineEdit" name="le15w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="4">
+        <widget class="QLineEdit" name="le14w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="4">
+        <widget class="QLineEdit" name="le11w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="6">
+        <widget class="QLineEdit" name="le11t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="6">
+        <widget class="QLineEdit" name="le4t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="6">
+        <widget class="QLineEdit" name="le12t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="9">
+        <widget class="QLineEdit" name="le4l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="4">
+        <widget class="QLineEdit" name="le16w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="5">
+        <widget class="QLineEdit" name="le13m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="6">
+        <widget class="QLineEdit" name="le13t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="5">
+        <widget class="QLineEdit" name="le15m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="6">
+        <widget class="QLineEdit" name="le16t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="5">
+        <widget class="QLineEdit" name="le16m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="7">
+        <widget class="QLineEdit" name="le5f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="6">
+        <widget class="QLineEdit" name="le14t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="5">
+        <widget class="QLineEdit" name="le14m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="6">
+        <widget class="QLineEdit" name="le15t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="font">
+          <font>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Watch List</string>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="9">
+        <widget class="QLineEdit" name="le20l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="3">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="20" column="0">
+        <widget class="QLineEdit" name="le18s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>CS</string>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="0">
+        <widget class="QLineEdit" name="le17s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>INT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="5">
+        <widget class="QLineEdit" name="le17m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="20" column="5">
+        <widget class="QLineEdit" name="le18m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="4">
+        <widget class="QLineEdit" name="le17w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="2">
+        <widget class="QLineEdit" name="le19p"/>
+       </item>
+       <item row="22" column="0">
+        <widget class="QLineEdit" name="le20s">
+         <property name="styleSheet">
+          <string notr="true">color:white;
+background-color: #6c7bff</string>
+         </property>
+         <property name="text">
+          <string>TTOO</string>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="4">
+        <widget class="QLineEdit" name="le20w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="3">
+        <widget class="QLineEdit" name="le19c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="5">
+        <widget class="QLineEdit" name="le20m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="4">
+        <widget class="QLineEdit" name="le19w">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="2">
+        <widget class="QLineEdit" name="le20p"/>
+       </item>
+       <item row="22" column="6">
+        <widget class="QLineEdit" name="le20t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="7">
+        <widget class="QLineEdit" name="le19f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="8">
+        <widget class="QSlider" name="hs19">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="3">
+        <widget class="QLineEdit" name="le20c">
+         <property name="styleSheet">
+          <string notr="true">background-color: gray;
+color: white</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="5">
+        <widget class="QLineEdit" name="le19m">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="6">
+        <widget class="QLineEdit" name="le19t">
+         <property name="styleSheet">
+          <string notr="true">background-color: #b9b429;
+color: white</string>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="8">
+        <widget class="QSlider" name="hs20">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="9">
+        <widget class="QLineEdit" name="le19l">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="7">
+        <widget class="QLineEdit" name="le20f">
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="24" column="5">
+        <widget class="QRadioButton" name="radioButtonAlerts">
+         <property name="text">
+          <string>Run Alerts</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

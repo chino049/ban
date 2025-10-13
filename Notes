@@ -1,0 +1,8 @@
+????/ D:\bitbucket\Ban>c:\Python39\Scripts\pyuic5.exe -x untitled.ui -o qtd.py
+remove c:\Python39\Scripts\pyside2-uic.exe untitled.ui > qtd2.py
+remove C:\Users\jesus.ordonez\AppData\Local\Programs\Python\Python310\Scripts\pyside2-uic.exe untitled.ui > qtd2.py
+old c:\Python39\Scripts\pyside2-uic.exe ban.ui > qtd2.py
+old C:\Users\jesus.ordonez\AppData\Local\Programs\Python\Python310\Scripts\pyside2-uic.exe ban.ui > qtd2.py
+old C:\Users\jesus.ordonez\AppData\Local\Programs\Python\Python310\Scripts\pyside2-uic.exe ban.ui > qtd2.py
+
+C:\Users\jesus.ordonez\AppData\Local\Programs\Python\Python310\Scripts\pyside2-uic.exe ban.ui -o qtd3.py
