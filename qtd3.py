@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Ban.ui'
+# Form implementation generated from reading ui file 'untitled.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.10
 #
@@ -15,7 +15,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.setEnabled(True)
-        MainWindow.resize(1327, 1030)
+        MainWindow.resize(1327, 1059)
         MainWindow.setBaseSize(QtCore.QSize(0, 0))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -173,7 +173,6 @@ class Ui_MainWindow(object):
         self.le13s = QtWidgets.QLineEdit(self.widget)
         self.le13s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le13s.setText("")
         self.le13s.setObjectName("le13s")
         self.gridLayout.addWidget(self.le13s, 15, 0, 1, 1)
         self.le16p = QtWidgets.QLineEdit(self.widget)
@@ -182,19 +181,16 @@ class Ui_MainWindow(object):
         self.le4s = QtWidgets.QLineEdit(self.widget)
         self.le4s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le4s.setText("")
         self.le4s.setObjectName("le4s")
         self.gridLayout.addWidget(self.le4s, 6, 0, 1, 1)
         self.le12s = QtWidgets.QLineEdit(self.widget)
         self.le12s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le12s.setText("")
         self.le12s.setObjectName("le12s")
         self.gridLayout.addWidget(self.le12s, 14, 0, 1, 1)
         self.le9s = QtWidgets.QLineEdit(self.widget)
         self.le9s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le9s.setText("")
         self.le9s.setObjectName("le9s")
         self.gridLayout.addWidget(self.le9s, 11, 0, 1, 1)
         self.le6m = QtWidgets.QLineEdit(self.widget)
@@ -284,7 +280,6 @@ class Ui_MainWindow(object):
         self.le8s = QtWidgets.QLineEdit(self.widget)
         self.le8s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le8s.setText("")
         self.le8s.setObjectName("le8s")
         self.gridLayout.addWidget(self.le8s, 10, 0, 1, 1)
         self.le10c = QtWidgets.QLineEdit(self.widget)
@@ -419,6 +414,11 @@ class Ui_MainWindow(object):
         self.label_2.setFont(font)
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 2, 2, 1, 1)
+        self.le16s = QtWidgets.QLineEdit(self.widget)
+        self.le16s.setStyleSheet("color:white;\n"
+"background-color: #6c7bff")
+        self.le16s.setObjectName("le16s")
+        self.gridLayout.addWidget(self.le16s, 18, 0, 1, 1)
         self.lineEdit_16 = QtWidgets.QLineEdit(self.widget)
         self.lineEdit_16.setObjectName("lineEdit_16")
         self.gridLayout.addWidget(self.lineEdit_16, 26, 3, 1, 1)
@@ -443,7 +443,6 @@ class Ui_MainWindow(object):
         self.le2s = QtWidgets.QLineEdit(self.widget)
         self.le2s.setStyleSheet("background-color: #6c7bff;\n"
 "color:white")
-        self.le2s.setText("")
         self.le2s.setObjectName("le2s")
         self.gridLayout.addWidget(self.le2s, 4, 0, 1, 1)
         self.lineEdit_9 = QtWidgets.QLineEdit(self.widget)
@@ -477,7 +476,6 @@ class Ui_MainWindow(object):
         self.le10s = QtWidgets.QLineEdit(self.widget)
         self.le10s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le10s.setText("")
         self.le10s.setObjectName("le10s")
         self.gridLayout.addWidget(self.le10s, 12, 0, 1, 1)
         self.le7f = QtWidgets.QLineEdit(self.widget)
@@ -488,7 +486,6 @@ class Ui_MainWindow(object):
         self.le7s = QtWidgets.QLineEdit(self.widget)
         self.le7s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le7s.setText("")
         self.le7s.setObjectName("le7s")
         self.gridLayout.addWidget(self.le7s, 9, 0, 1, 1)
         self.le1l = QtWidgets.QLineEdit(self.widget)
@@ -527,13 +524,11 @@ class Ui_MainWindow(object):
         self.le5s = QtWidgets.QLineEdit(self.widget)
         self.le5s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le5s.setText("")
         self.le5s.setObjectName("le5s")
         self.gridLayout.addWidget(self.le5s, 7, 0, 1, 1)
         self.le11s = QtWidgets.QLineEdit(self.widget)
         self.le11s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le11s.setText("")
         self.le11s.setObjectName("le11s")
         self.gridLayout.addWidget(self.le11s, 13, 0, 1, 1)
         self.lineEdit_13 = QtWidgets.QLineEdit(self.widget)
@@ -559,7 +554,6 @@ class Ui_MainWindow(object):
         self.le15s = QtWidgets.QLineEdit(self.widget)
         self.le15s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le15s.setText("")
         self.le15s.setObjectName("le15s")
         self.gridLayout.addWidget(self.le15s, 17, 0, 1, 1)
         self.lineEdit_18 = QtWidgets.QLineEdit(self.widget)
@@ -588,7 +582,6 @@ class Ui_MainWindow(object):
         self.le6s = QtWidgets.QLineEdit(self.widget)
         self.le6s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le6s.setText("")
         self.le6s.setObjectName("le6s")
         self.gridLayout.addWidget(self.le6s, 8, 0, 1, 1)
         self.le15c = QtWidgets.QLineEdit(self.widget)
@@ -610,7 +603,6 @@ class Ui_MainWindow(object):
         self.le3s = QtWidgets.QLineEdit(self.widget)
         self.le3s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le3s.setText("")
         self.le3s.setObjectName("le3s")
         self.gridLayout.addWidget(self.le3s, 5, 0, 1, 1)
         self.le14c = QtWidgets.QLineEdit(self.widget)
@@ -622,7 +614,6 @@ class Ui_MainWindow(object):
         self.le14s = QtWidgets.QLineEdit(self.widget)
         self.le14s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le14s.setText("")
         self.le14s.setObjectName("le14s")
         self.gridLayout.addWidget(self.le14s, 16, 0, 1, 1)
         self.le7p = QtWidgets.QLineEdit(self.widget)
@@ -683,6 +674,11 @@ class Ui_MainWindow(object):
 "color: white")
         self.le2m.setObjectName("le2m")
         self.gridLayout.addWidget(self.le2m, 4, 5, 1, 1)
+        self.le1s = QtWidgets.QLineEdit(self.widget)
+        self.le1s.setStyleSheet("color:white;\n"
+"background-color: #6c7bff")
+        self.le1s.setObjectName("le1s")
+        self.gridLayout.addWidget(self.le1s, 3, 0, 1, 1)
         self.lineEdit_8 = QtWidgets.QLineEdit(self.widget)
         self.lineEdit_8.setText("")
         self.lineEdit_8.setObjectName("lineEdit_8")
@@ -728,7 +724,6 @@ class Ui_MainWindow(object):
         self.le19s = QtWidgets.QLineEdit(self.widget)
         self.le19s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le19s.setText("")
         self.le19s.setObjectName("le19s")
         self.gridLayout.addWidget(self.le19s, 21, 0, 1, 1)
         self.le17l = QtWidgets.QLineEdit(self.widget)
@@ -953,13 +948,11 @@ class Ui_MainWindow(object):
         self.le18s = QtWidgets.QLineEdit(self.widget)
         self.le18s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le18s.setText("")
         self.le18s.setObjectName("le18s")
         self.gridLayout.addWidget(self.le18s, 20, 0, 1, 1)
         self.le17s = QtWidgets.QLineEdit(self.widget)
         self.le17s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le17s.setText("")
         self.le17s.setObjectName("le17s")
         self.gridLayout.addWidget(self.le17s, 19, 0, 1, 1)
         self.le17m = QtWidgets.QLineEdit(self.widget)
@@ -983,7 +976,6 @@ class Ui_MainWindow(object):
         self.le20s = QtWidgets.QLineEdit(self.widget)
         self.le20s.setStyleSheet("color:white;\n"
 "background-color: #6c7bff")
-        self.le20s.setText("")
         self.le20s.setObjectName("le20s")
         self.gridLayout.addWidget(self.le20s, 22, 0, 1, 1)
         self.le20w = QtWidgets.QLineEdit(self.widget)
@@ -1057,18 +1049,9 @@ class Ui_MainWindow(object):
         self.radioButtonAlerts = QtWidgets.QRadioButton(self.widget)
         self.radioButtonAlerts.setObjectName("radioButtonAlerts")
         self.gridLayout.addWidget(self.radioButtonAlerts, 24, 5, 1, 1)
-        self.le16s = QtWidgets.QLineEdit(self.widget)
-        self.le16s.setStyleSheet("color:white;\n"
-"background-color: #6c7bff")
-        self.le16s.setText("")
-        self.le16s.setObjectName("le16s")
-        self.gridLayout.addWidget(self.le16s, 18, 0, 1, 1)
-        self.le1s = QtWidgets.QLineEdit(self.widget)
-        self.le1s.setStyleSheet("color:white;\n"
-"background-color: #6c7bff")
-        self.le1s.setText("")
-        self.le1s.setObjectName("le1s")
-        self.gridLayout.addWidget(self.le1s, 3, 0, 1, 1)
+        self.radioButton = QtWidgets.QRadioButton(self.widget)
+        self.radioButton.setObjectName("radioButton")
+        self.gridLayout.addWidget(self.radioButton, 25, 5, 1, 1)
         self.gridLayout_2.addWidget(self.widget, 0, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
@@ -1081,14 +1064,45 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.le13s.setText(_translate("MainWindow", "ELY"))
+        self.le4s.setText(_translate("MainWindow", "AG"))
+        self.le12s.setText(_translate("MainWindow", "BE"))
+        self.le9s.setText(_translate("MainWindow", "VWSYF"))
+        self.le8s.setText(_translate("MainWindow", "BTG"))
         self.label_5.setText(_translate("MainWindow", "Monthly Gain"))
         self.label_6.setText(_translate("MainWindow", "Semester Gain"))
         self.label_2.setText(_translate("MainWindow", "Price"))
+        self.le16s.setText(_translate("MainWindow", "VRTX"))
         self.startButton.setText(_translate("MainWindow", "START"))
+        self.le2s.setText(_translate("MainWindow", "FCEL"))
         self.stopButton.setText(_translate("MainWindow", "STOP"))
+        self.le10s.setText(_translate("MainWindow", "IRDM"))
+        self.le7s.setText(_translate("MainWindow", "WPM"))
+        self.le5s.setText(_translate("MainWindow", "SVM"))
+        self.le11s.setText(_translate("MainWindow", "IPOF"))
+        self.le15s.setText(_translate("MainWindow", "ABBV"))
         self.label.setText(_translate("MainWindow", "Stock"))
+        self.le6s.setText(_translate("MainWindow", "RGLD"))
+        self.le3s.setText(_translate("MainWindow", "PLUG"))
+        self.le14s.setText(_translate("MainWindow", "BDC"))
         self.label_3.setText(_translate("MainWindow", "Previous Close"))
+        self.le1s.setText(_translate("MainWindow", "NIO"))
+        self.le19s.setText(_translate("MainWindow", "SESN"))
         self.startButton_2.setText(_translate("MainWindow", "START"))
         self.label_4.setText(_translate("MainWindow", "Weekly Gain"))
         self.label_7.setText(_translate("MainWindow", "Watch List"))
+        self.le18s.setText(_translate("MainWindow", "CS"))
+        self.le17s.setText(_translate("MainWindow", "INT"))
+        self.le20s.setText(_translate("MainWindow", "TTOO"))
         self.radioButtonAlerts.setText(_translate("MainWindow", "Run Alerts"))
+        self.radioButton.setText(_translate("MainWindow", "Top Gainers"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())

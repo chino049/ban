@@ -6,3 +6,6 @@ old C:\Users\jesus.ordonez\AppData\Local\Programs\Python\Python310\Scripts\pysid
 old C:\Users\jesus.ordonez\AppData\Local\Programs\Python\Python310\Scripts\pyside2-uic.exe ban.ui > qtd2.py
 
 C:\Users\jesus.ordonez\AppData\Local\Programs\Python\Python310\Scripts\pyside2-uic.exe ban.ui -o qtd3.py
+
+
+ /usr/bin/pyuic5 -x untitled.ui -o qtd3.py

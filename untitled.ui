@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>1327</width>
-    <height>1030</height>
+    <height>1059</height>
    </rect>
   </property>
   <property name="baseSize">
@@ -1826,6 +1826,13 @@ color: white</string>
         <widget class="QRadioButton" name="radioButtonAlerts">
          <property name="text">
           <string>Run Alerts</string>
+         </property>
+        </widget>
+       </item>
+       <item row="25" column="5">
+        <widget class="QRadioButton" name="radioButton">
+         <property name="text">
+          <string>Top Gainers</string>
          </property>
         </widget>
        </item>
