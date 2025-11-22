@@ -365,11 +365,11 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.wms_busy = False
 
     # ------------------------------------------------------------------
-    # Flashing (unchanged, safe)
+    # Flashing (unchanged, safe)f
     # ------------------------------------------------------------------
     def _flash_step(self):
         self.flash_state = not self.flash_state
-        target = QColor("white") if self.flash_state else QColor("black")
+        target = QColor("gray") if self.flash_state else QColor("black")
         for row in self.rows:
             if len(row) < 6: continue
             sym = row[0].text().strip()
@@ -462,7 +462,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         end_time = dtime(16, 0)
 
         #print("start and end times", start_time, end_time)
-        if not (start_time <= current_time <= end_time) and now_est_weekends.weekday() >= 5:
+        if not (start_time <= current_time <= end_time) or now_est_weekends.weekday() >= 5:
             #print("Market is closed")
             mins_left = int((datetime.combine(now_est.date(), start_time) - datetime.combine(now_est.date(), current_time)).total_seconds() / 60)
             #print("mins left", mins_left)
@@ -501,7 +501,7 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         if not self.stopped:
             self.progressBar.setRange(0, 1)
             now_est = datetime.now(ZoneInfo("America/New_York"))
-            if dtime(6, 0) <= now_est.time() <= dtime(13, 0):
+            if dtime(9, 30) <= now_est.time() <= dtime(16, 0):
                 self.timer.start(120_000)
             else:
                 print("Market closed. Updates paused until 9:30 AM EST.")
